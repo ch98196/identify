@@ -44,3 +44,10 @@
 1. 在小程序`app.js`中使用`wx.cloud.init()`初始化云环境
 2. 在页面`js`中使用本项目`miniprogram.js`的代码
 3. 从返回的`res.result`中获取认证结果 [返回值说明](https://cloud.tencent.com/document/product/1007/33188#3.-.E8.BE.93.E5.87.BA.E5.8F.82.E6.95.B0)
+
+## 发布提示
+
+本项目未经发布测试，因涉及收集敏感信息，不保证一定能通过审核，但如果你有业务需要实名核验流程，请注意：
+
+1. 建议使用企业主体的小程序
+2. 提交审核前在平台补充《隐私保护指引》，避免提审驳回 [官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/user-privacy/)
